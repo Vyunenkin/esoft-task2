@@ -1,0 +1,28 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#container {
+    max-width: 800px;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+}
+
+.highlight {
+    color: orange;
+    font-weight: bold;
+}
