@@ -42,7 +42,7 @@ const obj = {
     [Symbol("id")]: 123,
 };
 
-obj.circular = obj; // Создаем циклическую ссылку
+obj.circular = obj;
 
 const clonedObj = deepClone(obj);
 console.log(clonedObj);
